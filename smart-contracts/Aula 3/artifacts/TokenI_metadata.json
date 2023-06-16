@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Aula 3/TokenShop.sol": "TokenI"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol": {
+			"keccak256": "0x6e6e4b0835904509406b070ee173b5bc8f677c19421b76be38aea3b1b3d30846",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b3beaa37ee61e4ab615e250fbf01601ae481de843fd0ef55e6b44fd9d5fff8a7",
+				"dweb:/ipfs/QmeZUVwd26LzK4Mfp8Zba5JbQNkZFfTzFu1A6FVMMZDg9c"
+			]
+		},
+		"Aula 3/TokenShop.sol": {
+			"keccak256": "0x8e41eede9f890faa6c98f20bf01bd347a681694a612b8cfcd4d9673ed0d13222",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cb3f2be9638268146eaf4fbe3b5a05ff12d51c9eecd8a0455b5e0a5909d1aaeb",
+				"dweb:/ipfs/QmaYmrgkz417es2Rafmb7NzZDsiQVfpPCFEH1VapC5GqU5"
+			]
+		}
+	},
+	"version": 1
+}
