@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "mint",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Aula 4/TokenInterface.sol": "TokenInterface"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Aula 4/TokenInterface.sol": {
+			"keccak256": "0x33d8c8fa592eeadd0db446706cf6b25e153dcd79de8bdae671a004b0eb4f73ac",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://08de5a9a3d061ea09a294e684f4d7cfc7f8e341a67c1d8ff35ca582ff6ac7aea",
+				"dweb:/ipfs/QmUNS83ueqy7mss6kNfofuK5dYD5vbo2nqYTWPBi9KsVQk"
+			]
+		}
+	},
+	"version": 1
+}
